@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="bn" data-theme="dark" data-font-size="normal">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Prabhaker Exam Hub — Bengali and English grammar preparation for WB Gram Panchayat 2026.">
+  <meta name="theme-color" content="#08080f">
+  <title>Prabhaker Exam Hub | WB Gram Panchayat 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="hub-bn">
+  <a class="skip-link" href="#main-content">মূল বিষয়বস্তুতে যান / Skip to main content</a>
+
+  <div id="preloader" class="preloader" aria-live="polite" aria-label="Website is loading">
+    <div class="preloader-inner">
+      <div class="book-orbit" aria-hidden="true">📖</div>
+      <p class="preloader-title" aria-label="Prabhaker Exam Hub"><span>P</span><span>r</span><span>a</span><span>b</span><span>h</span><span>a</span><span>k</span><span>e</span><span>r</span><span>&nbsp;</span><span>E</span><span>x</span><span>a</span><span>m</span><span>&nbsp;</span><span>H</span><span>u</span><span>b</span></p>
+      <p class="preloader-tagline">বাংলা ও ইংরেজি — একসাথে, একটাই গন্তব্য</p>
+      <div class="preloader-progress" aria-hidden="true"><span></span></div>
+      <p id="preloader-message" class="preloader-message">লোড হচ্ছে...</p>
+    </div>
+  </div>
+
+  <div id="cursor-dot" class="cursor-dot" aria-hidden="true"></div>
+  <div id="cursor-ring" class="cursor-ring" aria-hidden="true"></div>
+
+  <header id="site-header" class="site-header">
+    <nav class="top-nav" aria-label="প্রধান নেভিগেশন / Main navigation">
+      <a class="brand" href="#home" aria-label="Prabhaker Exam Hub home">
+        <span class="brand-mark" aria-hidden="true">⚡</span><span>Prabhaker <b>Exam Hub</b></span>
+      </a>
+
+      <div class="hub-switcher" role="tablist" aria-label="Choose learning hub">
+        <button class="hub-switch is-active" type="button" role="tab" aria-selected="true" data-hub="bn" id="hub-bn-tab">
+          <span aria-hidden="true">🅱</span> বাংলা হাব
+        </button>
+        <button class="hub-switch" type="button" role="tab" aria-selected="false" data-hub="en" id="hub-en-tab">
+          <span aria-hidden="true">🇬🇧</span> English Hub
+        </button>
+      </div>
+
+      <div class="nav-actions">
+        <div class="search-wrap">
+          <label class="sr-only" for="global-search">Search both learning hubs</label>
+          <input id="global-search" class="search-input" type="search" autocomplete="off" placeholder="Search / খুঁজুন…" aria-controls="search-popover">
+          <button class="icon-button search-button" type="button" data-action="focus-search" aria-label="Search both hubs">⌕</button>
+          <div id="search-popover" class="search-popover" role="region" aria-label="Search results"></div>
+        </div>
+        <button id="theme-toggle" class="icon-button" type="button" aria-label="Switch dark or light colour mode" title="Dark / light mode">☾</button>
+        <div class="font-controls" role="group" aria-label="Font-size controls">
+          <button class="font-button" type="button" data-font="decrease" aria-label="Decrease font size">A−</button>
+          <button class="font-button is-selected" type="button" data-font="normal" aria-label="Use normal font size">A</button>
+          <button class="font-button" type="button" data-font="increase" aria-label="Increase font size">A+</button>
+        </div>
+        <button class="streak-chip" type="button" data-route="#progress" aria-label="View learning streak"><span aria-hidden="true">🔥</span><span id="nav-streak">0</span></button>
+        <button id="drawer-toggle" class="icon-button menu-button" type="button" aria-label="Open chapter menu" aria-expanded="false" aria-controls="mobile-drawer">☰</button>
+      </div>
+    </nav>
+    <nav id="chapter-subnav" class="chapter-subnav" aria-label="Current hub chapters"></nav>
+  </header>
+  <div id="reading-progress" class="reading-progress" aria-hidden="true"></div>
+
+  <aside id="mobile-drawer" class="mobile-drawer" aria-label="Chapter menu" aria-hidden="true">
+    <div class="drawer-top"><strong>পড়ার তালিকা / Study menu</strong><button class="icon-button" type="button" data-action="close-drawer" aria-label="Close menu">×</button></div>
+    <div id="drawer-chapters"></div>
+    <hr>
+    <a href="#progress">📊 আমার অগ্রগতি / My Progress</a>
+    <a href="#bookmarks">⭐ My Bookmarks</a>
+    <a href="#notes">📝 Personal Notes</a>
+    <a href="#flashcards-bn">🃏 Flashcards</a>
+  </aside>
+  <div id="drawer-scrim" class="drawer-scrim" hidden></div>
+
+  <main id="main-content" tabindex="-1">
+    <div id="app" class="app-view" aria-live="polite"></div>
+  </main>
+
+  <aside id="pomodoro-pill" class="pomodoro-pill" aria-label="Pomodoro study timer">
+    <button type="button" data-action="open-pomodoro" aria-label="Open Pomodoro timer">🍅 <span id="pomodoro-pill-text">25:00</span></button>
+  </aside>
+  <aside id="floating-stats" class="floating-stats" aria-label="Your study statistics">
+    <span>🔥 <b id="float-streak">0</b></span><span>⭐ <b id="float-xp">0</b> XP</span><span>🏆 <b id="float-level">নবীন</b></span><span>🎖️ <b id="float-badges">0</b></span><span>📊 <b id="float-progress">0</b>%</span>
+  </aside>
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <section id="notes-panel" class="notes-panel" aria-label="Personal notes" aria-hidden="true">
+    <div class="panel-header"><h2>📝 আমার নোট / My Notes</h2><button type="button" class="icon-button" data-action="close-notes" aria-label="Close notes">×</button></div>
+    <div class="notes-toolbar" role="toolbar" aria-label="Note formatting"><button type="button" data-action="notes-bold"><b>B</b></button><button type="button" data-action="notes-italic"><i>I</i></button><button type="button" data-action="notes-bullet">• List</button><button type="button" data-action="notes-heading">H</button><button type="button" data-action="print-notes">Print</button><button type="button" data-action="clear-notes">Clear</button></div>
+    <label class="sr-only" for="notes-text">Write your notes</label><textarea id="notes-text" placeholder="আজ কী শিখলে? / What did you learn today?"></textarea>
+    <div class="notes-meta"><span id="notes-count">0 words · 0 characters</span><span id="notes-saved">Autosave ready</span></div>
+  </section>
+
+  <div id="modal-root" class="modal-root" aria-live="polite"></div>
+  <div id="live-region" class="sr-only" aria-live="polite"></div>
+
+  <footer class="site-footer">
+    <p><b>Prabhaker Exam Hub</b> · পশ্চিমবঙ্গ গ্রাম পঞ্চায়েত পরীক্ষা ২০২৬</p>
+    <p>তৈরি করেছেন প্রভাকর | Built for WB Gram Panchayat 2026</p>
+    <p>Made with <span aria-label="love">❤</span> for the aspirants of West Bengal</p>
+    <div><a href="#home">Home</a><a href="#progress">Progress</a><a href="#bookmarks">Bookmarks</a><a href="#notes">Notes</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
