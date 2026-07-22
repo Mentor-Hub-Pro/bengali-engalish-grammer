@@ -141,3 +141,11 @@ body.focus-mode .page-shell { width:min(100% - 2rem,960px); padding-top:2rem; }
 .study-plan-details summary { display:flex; justify-content:space-between; gap:.7rem; min-height:44px; cursor:pointer; color:var(--accent); }
 .study-plan-details summary span { color:var(--text-secondary); font-size:.85rem; }
 @media (max-width:767px) { .dictionary-inputs { grid-template-columns:1fr; } .dictionary-inputs .btn { width:100%; } .revision-grid { grid-template-columns:1fr; } .focus-exit { right:.65rem; top:.65rem; } }
+
+
+/* Consistent visible close control for every modal and timer dialog */
+.modal { position:relative; padding-top:3.4rem; }
+.modal-close { position:absolute; top:.8rem; right:.8rem; display:grid; width:42px; height:42px; place-items:center; border:1px solid var(--glass-border); border-radius:50%; background:var(--bg-tertiary); color:var(--text-primary); font-size:1.7rem; line-height:1; transition:transform .2s,background .2s,border-color .2s; }
+.modal-close:hover { border-color:var(--error); background:color-mix(in srgb,var(--error) 14%,var(--bg-tertiary)); color:var(--error); transform:rotate(90deg); }
+.modal-close:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+.pomodoro-modal h2 { padding-right:2.8rem; }
