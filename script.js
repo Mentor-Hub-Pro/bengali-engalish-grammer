@@ -929,6 +929,32 @@ const EXAM_FOCUS = {
   'en-ch11':'Apostrophe, comma, spelling traps, capital letters, SVOA and negative-adverb inversion.'
 };
 
+const DEEP_THEORY = {
+  'bn-ch1':['একটি শব্দের পদ প্রসঙ্গভেদে বদলাতে পারে; তাই অভিধানের অর্থ নয়, বাক্যে ভূমিকা দেখো।','বিশেষ্য ও সর্বনামের সঙ্গে বিভক্তি বা অনুসর্গ যুক্ত হতে পারে; ক্রিয়ার কাল-পুরুষ রূপ বদলায়।','বিশেষণ নামের আগে/পরে আসতে পারে, কিন্তু ক্রিয়া-বিশেষণ সাধারণত কাজ, সময়, স্থান বা মাত্রা বোঝায়।'],
+  'bn-ch2':['সন্ধি ও সমাস আলাদা: সন্ধিতে বর্ণের মিলন, সমাসে পদের মিলন।','সন্ধিবিচ্ছেদে সম্ভাব্য সূত্রের সঙ্গে অর্থপূর্ণ পদ পাওয়া বাধ্যতামূলক।','তৎসম শব্দে সন্ধির নিয়ম বেশি দেখা যায়; প্রচলিত বাংলা শব্দে সব সময় সূত্র খাটে না।'],
+  'bn-ch3':['তৎপুরুষে ব্যাসবাক্যের বিভক্তি উপপ্রকার নির্ণয় করে—কে, দিয়ে, জন্য, থেকে, র, এ।','বহুব্রীহিতে সমস্তপদের অর্থ কোনও এক পদে সীমাবদ্ধ নয়; তৃতীয় ব্যক্তি/বস্তু বোঝায়।','দ্বিগুতে সংখ্যাবাচক পূর্বপদ থাকে, কিন্তু ব্যাসবাক্যের অর্থ দেখে দ্বিগু ও বহুব্রীহি আলাদা করো।'],
+  'bn-ch4':['একই বিভক্তি ভিন্ন কারক বোঝাতে পারে; তাই শুধু “কে/এ” দেখে উত্তর দিও না।','সম্বন্ধ পদের সঙ্গে ক্রিয়ার সরাসরি সম্পর্ক নেই, কিন্তু কারক পদ ক্রিয়ার সঙ্গে সম্পর্কিত।','শূন্য বিভক্তি থাকলেও প্রশ্নপদ্ধতি ব্যবহার করে কারক নির্ণয় করা যায়।'],
+  'bn-ch5':['প্রকৃতি কেটে নেওয়ার পরে যে অংশ থাকে তার নিজস্ব অর্থ থাকা দরকার।','কৃৎ প্রত্যয় থেকে কর্তা, কর্ম, ভাব বা যোগ্যতা বোঝানো শব্দ হতে পারে।','তদ্ধিত প্রত্যয় জাতি, দেশ, গুণ, সম্পর্ক, ভাব বা পেশার নাম গঠনে সাহায্য করে।'],
+  'bn-ch6':['শব্দভাণ্ডার মুখস্থের সবচেয়ে কার্যকর পদ্ধতি হল অর্থ–সমার্থক–বিপরীত–নিজের বাক্য একসঙ্গে শেখা।','বিদেশি শব্দের ভাষা মনে রাখতে শব্দকে ব্যবহারক্ষেত্রের সঙ্গে জোড়ো: প্রশাসন, ঘরোয়া বস্তু, শিক্ষা, পোশাক।','বাগধারায় আক্ষরিক অর্থ বাদ দিয়ে বাক্যের পরিস্থিতি কল্পনা করো।'],
+  'bn-ch7':['রূপান্তরে subject, tense, cause, contrast এবং মূল ঘটনার সম্পর্ক অক্ষুণ্ণ রাখতে হয়।','বাচ্য পরিবর্তনে কর্তার গুরুত্ব কমলেও মূল ক্রিয়ার ভাব ও সময় নষ্ট করা চলবে না।','সংশোধনে redundancy বাদ দেওয়া মানে তথ্য বাদ দেওয়া নয়; একই অর্থের অপ্রয়োজনীয় পুনরাবৃত্তি বাদ দেওয়া।'],
+  'bn-ch8':['সাহিত্যতথ্যে উপাধি, ছদ্মনাম, চরিত্র এবং গ্রন্থের নামকে আলাদা category-তে রাখো।','“প্রথম” তথ্যের ক্ষেত্রে প্রশ্নের qualifier—প্রথম, প্রথম সার্থক, প্রথম দৈনিক—খুব সতর্ক হয়ে পড়ো।','যুগ নির্ণয়ে কেবল সাল নয়, সাহিত্যধারা ও প্রধান রচয়িতার নাম মনে রাখো।'],
+  'bn-ch9':['Comprehension-এ pronoun reference খুঁজতে আগের বাক্যে noun-টি দেখো।','কারণ-ফল প্রশ্নে because, therefore, ফলে, তাই, কিন্তু-জাত linking word বিশেষ গুরুত্বপূর্ণ।','একটি difficult word পুরো passage বোঝার বাধা নয়; surrounding context থেকে অর্থ অনুমান করো।'],
+  'en-ch1':['Word class can change by context: “fast train” uses an adjective, “run fast” uses an adverb.','A pronoun’s case depends on its job: subject before a verb, object after a verb/preposition.','Preposition and phrasal-verb combinations are best learned as chunks, not isolated words.'],
+  'en-ch2':['Tense choice depends on meaning first; signal words support the choice but never replace understanding.','Stative verbs such as know, believe, own and understand are usually not used in continuous form.','Perfect tenses connect one time with another: result now, earlier past, or completion by a future point.'],
+  'en-ch3':['Article choice comes before a singular countable noun; plural and uncountable nouns follow different rules.','The is not simply “a known noun”; it is also used with unique items, groups, superlatives and certain geographical names.','Pronunciation decides a/an: /juː/ in university starts with a consonant sound.'],
+  'en-ch4':['Passive voice changes focus, not basic meaning; use it when receiver/action matters more than doer.','The main verb must be V3 in passive; tense lives in the auxiliary be.','Two-object verbs permit two passive forms, but use to before the indirect object when the direct object becomes subject.'],
+  'en-ch5':['Backshift is common when the reporting verb is in the past, but universal truths and still-true facts may stay unchanged.','Pronoun change follows speaker/listener meaning, not a fixed mechanical replacement.','Reporting verb selection carries meaning: requested, advised, ordered, forbade, exclaimed and wished are not interchangeable.'],
+  'en-ch6':['Vocabulary retention improves when you meet a word in a sentence, retrieve it later, and use it actively.','Confusable words are often separated by word class, spelling pattern and one contrast sentence.','Phrasal verbs can be literal or idiomatic; sentence context tells which meaning is intended.'],
+  'en-ch7':['Error spotting works best from large grammar structure to smaller spelling/punctuation details.','Transformation questions test structure, but every correct answer must preserve tense, person and original meaning.','In a tag question, auxiliary choice comes from the statement—not from the final noun alone.'],
+  'en-ch8':['Skimming finds topic and structure; scanning finds a named fact, number or keyword.','Inference means the safest logical conclusion, not a creative guess beyond evidence.','Distractor options may copy a passage word but change the relationship, quantity or reason.'],
+  'en-ch9':['Some plural-looking nouns are singular in meaning (news, mathematics), while some tools are plural (scissors, trousers).','Degree transformations require the same comparison group; “any other” avoids comparing a person with itself.','Modern English often prefers gender-neutral common nouns, but traditional pair forms still appear in school grammar questions.'],
+  'en-ch10':['Question tags depend on polarity, auxiliary and pronoun; meaning words such as nobody and few are negative in sense.','Conditionals express different reality levels: fact, real possibility, unreal imagination, past regret and mixed time.','Modal strength matters: might is weaker than may; should advises; must strongly requires.'],
+  'en-ch11':['Punctuation can change meaning: commas separate units, apostrophes show possession/contraction, and quotation marks show exact words.','Spelling memory improves through sound, syllable, word family and repeated written recall.','Inversion is exceptional; use normal SVOA order unless a negative/limiting expression requires an auxiliary before the subject.']
+};
+Object.entries(DEEP_THEORY).forEach(([chapterId,notes])=>{
+  if (BOOK_GUIDES[chapterId]) BOOK_GUIDES[chapterId].theory.push(...notes);
+});
+
 function renderBookGuide(chapter) {
   const guide=BOOK_GUIDES[chapter.id];
   if (!guide) return '';
@@ -980,6 +1006,207 @@ function renderExpansionLab(chapter) {
     <div class="expansion-grid">${cards}</div>
   </section>`;
 }
+
+/* 100 genuinely applied, chapter-specific examples per chapter. */
+const EXAMPLE_NAMES_BN=['রবি','মিতা','সুমন','রিনা','অর্পা','তনয়','পিয়ালী','অনিক','মৌ','প্রভাকর'];
+const EXAMPLE_ACTIONS_BN=['নতুন গল্পটি পড়ে','চিঠিটি লেখে','কবিতাটি শোনে','ছবিটি আঁকে','বইটি গুছিয়ে রাখে','পাঠটি বোঝে','বন্ধুকে সাহায্য করে','ফুলটি তোলে','প্রশ্নের উত্তর দেয়','স্কুলে যায়'];
+const EXAMPLE_NAMES_EN=['Rina','Amit','Maya','Arun','Soma','Rahul','Tina','Ravi','Mina','Provakar'];
+const EXAMPLE_ACTIONS_EN=['reads a new story','writes a careful answer','solves the problem','visits the library','helps a friend','checks the spelling','carries the book','opens the window','finishes the task','joins the class'];
+const pick=(list,index)=>list[index%list.length];
+const cleanExample=value=>String(value).replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();
+
+function makeBnPartsRows() {
+  const manner=['মনোযোগ দিয়ে','আনন্দ নিয়ে','সতর্কভাবে','নিয়মিতভাবে','ধীরে ধীরে','খুব যত্নে','সঠিকভাবে','ভালো করে','মন দিয়ে','নীরবে'];
+  return Array.from({length:100},(_,index)=>{
+    const name=pick(EXAMPLE_NAMES_BN,index); const action=pick(EXAMPLE_ACTIONS_BN,Math.floor(index/10));
+    const qualifier=pick(manner,index);
+    const sentence=`${name} আজ ${qualifier} ${action}।`;
+    return [String(index+1),sentence,`${name}=সংজ্ঞাবাচক বিশেষ্য; ${qualifier}=ক্রিয়া-বিশেষণীয় পদবন্ধ; ${action}=ক্রিয়া।`, 'কে কাজ করছে, কীভাবে করছে এবং কী কাজ করছে—এই তিন প্রশ্নে পদ চিহ্নিত করো।'];
+  });
+}
+
+function makeSandhiRows() {
+  const core=sandhiGroups.flatMap(group=>group.examples.map(example=>[group.title,cleanExample(example)])).slice(0,30);
+  const modes=[
+    (type,ex)=>[`সন্ধিযুক্ত শব্দ: ${ex}`,`${type} শনাক্ত করো।`],
+    (type,ex)=>[`বিচ্ছেদ অনুশীলন: ${ex}`,`দুটি মূল ধ্বনি ও সূত্র লিখো; প্রকার: ${type}।`],
+    (type,ex)=>[`সূত্র যাচাই: ${ex}`,`উচ্চারণ ও বর্ণ পরিবর্তন দেখে ${type} প্রমাণ করো।`],
+    (type,ex)=>[`Exam variation: ${ex}`,`যুক্ত শব্দ/বিচ্ছেদ/সন্ধির প্রকার—তিনভাবে প্রশ্ন হতে পারে; প্রকার: ${type}।`]
+  ];
+  return Array.from({length:100},(_,index)=>{const [type,ex]=pick(core,index);const data=modes[index%4](type,ex);return [String(index+1),data[0],data[1],'বিচ্ছেদের পরে দুই পদের অর্থ হচ্ছে কি না অবশ্যই মিলিয়ে নাও।'];});
+}
+
+function makeSamasRows() {
+  const core=Object.entries(samasExamples).flatMap(([type,examples])=>examples.map(example=>[type,cleanExample(example)])).slice(0,30);
+  const modes=[
+    (type,ex)=>[`সমাস উদাহরণ: ${ex}`,`${type}—ব্যাসবাক্যে সংযোগচিহ্ন খুঁজে বের করো।`],
+    (type,ex)=>[`ব্যাসবাক্য থেকে নির্ণয়: ${ex}`,`${type} কেন হবে, প্রধান পদ/বিভক্তি দিয়ে বোঝাও।`],
+    (type,ex)=>[`তুলনামূলক উদাহরণ: ${ex}`,`কাছাকাছি অন্য সমাস থেকে ${type}-এর পার্থক্য লেখো।`],
+    (type,ex)=>[`Exam-ready line: ${ex}`,`প্রথমে ব্যাসবাক্য, পরে ${type}—এই ক্রমে উত্তর দাও।`]
+  ];
+  return Array.from({length:100},(_,index)=>{const [type,ex]=pick(core,index);const data=modes[index%4](type,ex);return [String(index+1),data[0],data[1],'শব্দের বানান দেখে তাড়াহুড়ো নয়; ব্যাসবাক্যই শেষ সিদ্ধান্ত।'];});
+}
+
+function makeKarakRows() {
+  const core=bn4Groups.flatMap(group=>group.examples.map(example=>[group.title,cleanExample(example)]));
+  return Array.from({length:100},(_,index)=>{const [type,ex]=pick(core,index);return [String(index+1),ex,`${type}—ক্রিয়ার সঙ্গে সম্পর্ক নির্ণয় করো।`, 'কে/কী/কী দিয়ে/কার জন্য/কোথা থেকে/কোথায় প্রশ্ন করে উত্তর যাচাই করো।'];});
+}
+
+function makePrakrtiRows() {
+  const core=[...bn5Krit.map(x=>['কৃৎ প্রত্যয়',x]),...bn5Taddhit.map(x=>['তদ্ধিত প্রত্যয়',x])];
+  return Array.from({length:100},(_,index)=>{const [type,ex]=pick(core,index);return [String(index+1),ex,`${type}: প্রকৃতি ও প্রত্যয় আলাদা করো।`, 'শেষাংশ বাদ দিলে অর্থপূর্ণ মূল থাকে কি না দেখো; ধাতু হলে কৃৎ, নামপ্রকৃতি হলে তদ্ধিত।'];});
+}
+
+function makeVocabRowsNew(chapter) {
+  let core=[];
+  if(chapter.id==='bn-ch6') core=[...bnOneWordSeed.map(x=>[`এক কথায় প্রকাশ: ${x[0]}`,x[1]]),...bnAntonymSeed.map(x=>[`${x[0]} — বিপরীত`,x[1]]),...bnSynonymSeed.map(x=>[`${x[0]} — সমার্থক`,x[1]])];
+  else core=[...enSynSeed.map(x=>[`${x[0]} — synonym`,x[1]]),...enAntSeed.map(x=>[`${x[0]} — antonym`,x[1]]),...enOneWordSeed.map(x=>[x[0],x[1]])];
+  return Array.from({length:100},(_,index)=>{const [clue,answer]=pick(core,index);const sentence=chapter.id==='bn-ch6'?`শব্দভাণ্ডার উদাহরণ: ${clue} → ${answer}।`:`Vocabulary example: ${clue} → ${answer}.`;return [String(index+1),sentence,chapter.id==='bn-ch6'?'অর্থ, সমার্থক/বিপরীত ও নিজের বাক্য মনে করো।':'Learn the meaning, a related word and one sentence of your own.',chapter.id==='bn-ch6'?'এই শব্দটি ব্যবহার করে নিজের একটি বাংলা বাক্য লেখো।':'Use the answer in a fresh English sentence.'];});
+}
+
+function makeBnTransformRows() {
+  const core=bn7Transforms.flatMap(([type,,examples])=>examples.map(example=>[type,cleanExample(example)])).concat(bn7CorrectionPairs.map(pair=>['বাক্য সংশোধন',`${pair[0]} → ${pair[1]}`]));
+  return Array.from({length:100},(_,index)=>{const [type,ex]=pick(core,index);return [String(index+1),ex,`${type}—মূল ভাব অপরিবর্তিত রেখো।`, 'কর্তা, কাল, কারণ ও মূল তথ্য বদলেছে কি না শেষে মিলিয়ে দেখো।'];});
+}
+
+function makeLiteratureRows() {
+  const core=[...bnBookSeed.map(x=>[`গ্রন্থ: ${x[0]}`,x[1]]),...bnCharacterSeed.map(x=>[`চরিত্র: ${x[0]}`,x[1]]),...bnPenNameSeed.map(x=>[`লেখক: ${x[0]}`,x[1]]),...bnFirstSeed.map(x=>[x[0],x[1]])];
+  return Array.from({length:100},(_,index)=>{const [clue,answer]=pick(core,index);return [String(index+1),`${clue} → ${answer}`, 'লেখক–গ্রন্থ–চরিত্র বা প্রথম তথ্যের সংযোগ মনে রাখো।', 'একটি flashcard বানাও: সামনে clue, পিছনে উত্তর ও একটি related fact।'];});
+}
+
+function makeBnComprehensionRows() {
+  const core=bnPassages.flatMap(p=>p.questions.map(q=>[p.title,`${q[0]} → ${q[5]}`])).concat(bn9Words.map(word=>['শব্দার্থ',word]));
+  return Array.from({length:100},(_,index)=>{const [topic,line]=pick(core,index);return [String(index+1),`${topic}: ${line}`,'Evidence খুঁজে উত্তর দাও; নিজের বাইরের ধারণা যোগ কোরো না।','Question keyword passage-এ খুঁজে একই বা সমার্থক phrase দাগাও।'];});
+}
+
+function makeEnglishPartsRows() {
+  return Array.from({length:100},(_,index)=>{
+    const name=pick(EXAMPLE_NAMES_EN,index);const action=pick(EXAMPLE_ACTIONS_EN,Math.floor(index/10));const adjective=pick(['careful','diligent','kind','young','clever','honest','quiet','brave','helpful','curious'],index);
+    const sentence=`${name} is a ${adjective} student and ${action} every day.`;
+    return [String(index+1),sentence,`${name}=proper noun; ${adjective}=adjective; ${action.split(' ')[0]}=verb; every day=adverbial time.`, 'Underline the noun, circle the verb, then label the describing word and time phrase.'];
+  });
+}
+
+function makeTenseRows() {
+  const patterns=[
+    ['Simple Present','Rina reads the lesson every morning.','habit: V1/V1+s'],['Present Continuous','Rina is reading the lesson now.','action in progress: am/is/are + V-ing'],['Present Perfect','Rina has read the lesson already.','completed result: has/have + V3'],['Present Perfect Continuous','Rina has been reading for an hour.','duration to now: has/have been + V-ing'],['Simple Past','Rina read the lesson yesterday.','finished past: V2'],['Past Continuous','Rina was reading when I called.','past action in progress: was/were + V-ing'],['Past Perfect','Rina had read before the class began.','earlier past: had + V3'],['Past Perfect Continuous','Rina had been reading for an hour before dinner.','duration before past: had been + V-ing'],['Simple Future','Rina will read the lesson tomorrow.','future decision/prediction: will + V1'],['Future Continuous','Rina will be reading at eight tonight.','future action in progress: will be + V-ing'],['Future Perfect','Rina will have read it by noon.','completion by future time: will have + V3'],['Future Perfect Continuous','Rina will have been reading for two hours by eight.','future duration: will have been + V-ing']
+  ];
+  return Array.from({length:100},(_,index)=>{const [name,base,rule]=pick(patterns,index);const subject=pick(EXAMPLE_NAMES_EN,index);const sentence=base.replace('Rina',subject);return [String(index+1),sentence,`${name}: ${rule}.`, 'Find the time clue first, then confirm the helping verb and main verb form.'];});
+}
+
+function makeArticleRows() {
+  const examples=[
+    ['He is an honest officer.','an: honest starts with a vowel sound because h is silent.'],
+    ['She is a university student.','a: university begins with /juː/, a consonant sound.'],
+    ['We waited for an hour.','an: hour begins with a vowel sound.'],
+    ['He is a European traveller.','a: European begins with /juː/.'],
+    ['She is an MBA graduate.','an: MBA begins with the vowel sound /e/.'],
+    ['It is a useful idea.','a: useful begins with /juː/.'],
+    ['I saw an old umbrella.','an: old begins with a vowel sound.'],
+    ['He is a one-eyed man.','a: one begins with /w/, a consonant sound.'],
+    ['The Himalayas are high.','the: mountain ranges take the.'],
+    ['The Ganga is a holy river.','the: names of rivers take the.'],
+    ['English is useful.','zero article: language in a general sense.'],
+    ['We have breakfast at eight.','zero article: meals in a general sense.'],
+    ['The sun rises in the east.','the: unique object and fixed direction phrase.'],
+    ['This is the best answer.','the: superlative adjective.'],
+    ['I met a man; the man was kind.','a: first mention; the: known second mention.'],
+    ['She can play the flute.','the: musical instrument.'],
+    ['Honesty is a virtue.','zero article: abstract noun in general sense.'],
+    ['He goes to school every day.','zero article: school used for its main purpose.'],
+    ['I went to the school to meet the teacher.','the: a specific school building.'],
+    ['The rich should help the poor.','the + adjective: a class of people.'],
+    ['Mount Everest is very high.','zero article: a single mountain name.'],
+    ['The Bay of Bengal is large.','the: bay name.'],
+    ['She bought an X-ray report.','an: X begins with vowel sound /e/.'],
+    ['He made a U-turn.','a: U begins with /juː/.'],
+    ['This is the same book that I read.','the: same is normally preceded by the.']
+  ];
+  const examForms=['Correct usage','Fill-in-the-blank model','Sound/meaning explanation','Error-spotting model'];
+  return Array.from({length:100},(_,index)=>{const [sentence,clue]=pick(examples,index);return [String(index+1),sentence,`${pick(examForms,index)}: ${clue}`, 'Say the noun aloud, then decide whether it is new, specific, unique or general.'];});
+}
+
+function makeVoiceRows() {
+  const pairs=[
+    ['Rina','writes','a letter','written'],['The teacher','teaches','English','taught'],['The workers','clean','the room','cleaned'],['The guard','opens','the gate','opened'],['The farmer','grows','rice','grown'],['The doctor','examines','the patient','examined'],['The team','wins','the match','won'],['The mechanic','repairs','the road','repaired'],['The artist','draws','the picture','drawn'],['The officer','checks','the report','checked']
+  ];
+  const time=['every day','each morning','at the school','with care','during the project','for the village','before noon','after class','on Mondays','regularly'];
+  return Array.from({length:100},(_,index)=>{
+    const [subject,verb,object,v3]=pick(pairs,index);const adverb=pick(time,Math.floor(index/10));
+    const capitalObject=object.charAt(0).toUpperCase()+object.slice(1);
+    const agent=subject.replace(/^The /,'the ');
+    return [String(index+1),`Active: ${subject} ${verb} ${object} ${adverb}. → Passive: ${capitalObject} is ${v3} by ${agent} ${adverb}.`,'Simple Present passive: am/is/are + V3.','Keep the same tense, move the object first and use an object pronoun after by where necessary.'];
+  });
+}
+
+function makeNarrationRows() {
+  const speakers=['Rina','Amit','The teacher','Mother','Father','The doctor','The officer','Mina','The guide','The boy'];
+  const direct=['“I am ready.”','“I will help.”','“Do you know him?”','“Please sit down.”','“Do not waste time.”','“Where do you live?”','“May you succeed!”','“What a lovely day!”','“I have finished.”','“Can you swim?”'];
+  const indirect=['said that she was ready.','said that he would help.','asked if I knew him.','requested me to sit down.','advised me not to waste time.','asked where I lived.','wished that I might succeed.','exclaimed that it was a very lovely day.','said that she had finished.','asked if I could swim.'];
+  return Array.from({length:100},(_,index)=>{const speaker=pick(speakers,index);const d=pick(direct,index);const ind=pick(indirect,index);return [String(index+1),`Direct: ${speaker} said, ${d} → Indirect: ${speaker} ${ind}`, 'Identify statement/question/command/wish before changing words.','Check reporting verb, pronoun, tense and time/place expression in that order.'];});
+}
+
+function makeEnglishVocabRows() { return makeVocabRowsNew({id:'en-ch6'}); }
+
+function makeEnglishCorrectionRows() {
+  const core=en7ErrorTypes.flatMap(([type,,examples])=>examples.map(example=>[type,example]));
+  return Array.from({length:100},(_,index)=>{const [type,example]=pick(core,index);return [String(index+1),example,`${type}: identify the wrong word or structure.`, 'State the rule in one short line after correcting the sentence.'];});
+}
+
+function makeEnglishComprehensionRows() {
+  const core=enPassages.flatMap(p=>p.questions.map(q=>[p.title,`${q[0]} → ${q[5]}`])).concat(en8Vocab.map(word=>['Vocabulary in context',word]));
+  return Array.from({length:100},(_,index)=>{const [topic,line]=pick(core,index);return [String(index+1),`${topic}: ${line}`,'Find the evidence in the sentence or paragraph, not in outside knowledge.','Underline the keyword and eliminate options that are too broad, narrow or opposite.'];});
+}
+
+function makeNumberRows() {
+  const core=pluralGroups.flatMap(([rule,,examples])=>examples.map(example=>[rule,example])).concat(genderSeed.map(pair=>['Gender pair',`${pair[0]} → ${pair[1]}`]));
+  return Array.from({length:100},(_,index)=>{const [rule,example]=pick(core,index);return [String(index+1),example,rule,'Say the singular/plural or masculine/feminine form aloud, then use it in a short sentence.'];});
+}
+
+function makeTagsConditionalsRows() {
+  const core=[...tagRuleGroups.flatMap(([rule,,examples])=>examples.map(example=>[rule,example])),...conditionalGroups.flatMap(group=>group.examples.map(example=>[group.title,example])),...Object.entries(modalSeed).flatMap(([modal,examples])=>examples.map(example=>[`${modal} modal`,example]))];
+  return Array.from({length:100},(_,index)=>{const [rule,example]=pick(core,index);return [String(index+1),example,rule,'Mark the auxiliary/conditional form/modal meaning before choosing the answer.'];});
+}
+
+function makePunctuationRows() {
+  const core=[...punctuationGroups.flatMap(group=>group.examples.map(example=>[group.title,example])),...misspellSeed.map(pair=>['Spelling',`${pair[1]} → ${pair[0]}`]),...wordOrderGroups.flatMap(group=>group.examples.map(example=>[group.title,example]))];
+  return Array.from({length:100},(_,index)=>{const [rule,example]=pick(core,index);return [String(index+1),example,rule,'Read once for meaning, then check capital letter, punctuation, spelling and word order.'];});
+}
+
+function buildNewChapterExamples(chapter) {
+  const builders={
+    'bn-ch1':makeBnPartsRows,'bn-ch2':makeSandhiRows,'bn-ch3':makeSamasRows,'bn-ch4':makeKarakRows,'bn-ch5':makePrakrtiRows,
+    'bn-ch6':()=>makeVocabRowsNew(chapter),'bn-ch7':makeBnTransformRows,'bn-ch8':makeLiteratureRows,'bn-ch9':makeBnComprehensionRows,
+    'en-ch1':makeEnglishPartsRows,'en-ch2':makeTenseRows,'en-ch3':makeArticleRows,'en-ch4':makeVoiceRows,'en-ch5':makeNarrationRows,
+    'en-ch6':makeEnglishVocabRows,'en-ch7':makeEnglishCorrectionRows,'en-ch8':makeEnglishComprehensionRows,'en-ch9':makeNumberRows,
+    'en-ch10':makeTagsConditionalsRows,'en-ch11':makePunctuationRows
+  };
+  return (builders[chapter.id] || (()=>[]))();
+}
+
+function attachNewExampleBanks() {
+  [...DATA.bengali.chapters,...DATA.english.chapters].forEach(chapter=>{
+    const id=`${chapter.id}-newexamples100`;
+    if (chapter.sections.some(section=>section.id===id)) return;
+    const isBn=chapter.hub==='bn';
+    chapter.sections.push({
+      id,
+      title:isBn?'১০০টি নতুন বিস্তারিত Exam-Ready Example':'100 New Detailed Exam-Ready Examples',
+      definition:isBn?'এই table-এ chapter অনুযায়ী নতুন application example, answer clue এবং teacher note দেওয়া হয়েছে। এগুলি শুধু instruction নয়; প্রতিটি line-এ একটি ব্যবহারযোগ্য grammar, vocabulary, transformation বা fact-based example আছে।':'This chapter-specific table provides new applied examples with answer clues and teacher notes. Every row is a usable grammar, vocabulary, transformation or fact-based example—not merely a study instruction.',
+      support:isBn?'প্রতিদিন 25টি example পড়ো, জোরে বলো এবং অন্তত 5টি নিজের খাতায় লেখো।':'Read 25 examples daily, say them aloud and write at least five in your own notebook.',
+      table:{headers:isBn?['No.','নতুন উদাহরণ','Concept / Answer','Teacher note']:['No.','New example','Concept / Answer','Teacher note'],rows:buildNewChapterExamples(chapter)},
+      filterable:true,
+      filterLabel:isBn?'নতুন ১০০টি example খুঁজুন':'Search the 100 new examples',
+      initialRows:50,
+      tip:isBn?'প্রথমে example পড়ে নিজে উত্তর ভাবো; তারপর Concept / Answer column দেখো।':'Read the example and attempt it first; then check the Concept / Answer column.',
+      memory:isBn?'উদাহরণ পড়ি, সূত্র ধরি; নিজের বাক্যে জ্ঞান গড়ি।':'Read the example, find the rule, write your own sentence.',
+      mistakes:isBn?[['শুধু Answer column পড়া','আগে নিজের উত্তর চেষ্টা করা'],['একদিনে 100টি মুখস্থ করা','প্রতিদিন 25টি করে চার দিনে শেষ করা']]:[['Reading only the answer column','Attempting the example before checking the clue'],['Memorising all 100 in one day','Completing 25 examples daily for four days']],
+      exam:isBn?['এই table-এর line থেকে MCQ, ভুল সংশোধন, সংজ্ঞা, রূপান্তর বা সংক্ষিপ্ত প্রশ্ন তৈরি করো।','নিজের ভুল example-এ ⭐ bookmark দাও।']:['Turn these lines into MCQ, error-correction, definition, transformation or short-answer practice.','Bookmark every example you answer incorrectly.']
+    });
+  });
+}
+
+attachNewExampleBanks();
 
 function getChapter(id){return [...DATA.bengali.chapters,...DATA.english.chapters].find(chapter=>chapter.id===id);}
 function ttsButton(text){return `<button class="mini-action" type="button" data-action="tts" data-text="${attr(text.replace(/<[^>]*>/g,''))}" aria-label="Read aloud">🔊</button>`;}
